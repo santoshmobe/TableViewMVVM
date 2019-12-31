@@ -20,7 +20,7 @@ class ViewController: UIViewController {
         tableView?.dataSource = viewModel
         
         tableView?.estimatedRowHeight = 100
-        tableView?.rowHeight = UITableViewAutomaticDimension
+        tableView?.rowHeight = UITableView.automaticDimension
         
         tableView?.register(AboutCell.nib, forCellReuseIdentifier: AboutCell.identifier)
         tableView?.register(NamePictureCell.nib, forCellReuseIdentifier: NamePictureCell.identifier)
